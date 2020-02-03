@@ -6,12 +6,21 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import LandingSection from "../components/landing"
+import About from "../components/about"
+import Skills from "../components/skills"
+import Projects from "../components/projects"
+import Contact from "../components/contact"
+
+
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Min Jea Kim" />
     <LandingSection/>
-    <h1>Hi people</h1>
+    <About/>
+    <Skills/>
+    <Projects/>
+    <Contact/>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     </div>
   </Layout>
