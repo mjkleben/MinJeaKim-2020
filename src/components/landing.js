@@ -7,7 +7,7 @@ const LandingSection = () => {
         <div className="landing">
             <section className="landing-greeting">
                 <img  src={ProfilePic} alt="fireSpot"/>
-                <h1>👋 hi, i'm Min Jea</h1>
+                <h1><span className="hand">👋</span> hi, i'm Min Jea</h1>
                 <h1>Software Developer {"\u0026"} </h1>
                 <h2>Designer</h2>
             </section>
