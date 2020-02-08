@@ -3,13 +3,32 @@ import '../../public/assets/css/about.scss'
 // import ProfilePic from '../../public/assets/img/profile.png'
 
 import ScrollAnimation from 'react-animate-on-scroll';
+import MusicNote from '../../public/assets/img/note.svg'
+import Donut from '../../public/assets/img/donut.svg'
+import Pencil from '../../public/assets/img/pencil.svg'
+import Laptop from '../../public/assets/img/laptop.svg'
+import Spanish from '../../public/assets/img/spanish.svg'
+import Dumbbell from '../../public/assets/img/dumbbell.svg'
+
 
 const About = () => {
     return (
         <div className="about-container">
             <section className="about">
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={1.4}>
-                    <div className="block"></div>
+                    <div className="spin-animation">
+                        <div className="center-logo"></div>
+                        <div className="circle">
+                            <img src={Dumbbell} className="hobby1"/>
+                            <img src={Spanish} className="hobby2"/>
+                            <img src={Laptop} className="hobby3"/>
+                            <img src={Donut} className="hobby4"/>
+                            <img src={Pencil} className="hobby5"/>
+                            <img src={MusicNote} className="hobby6"/>
+                        </div>
+                    </div>
+                    
+                    {/* <img src={Hobbies} className="block"/> */}
                 </ScrollAnimation>
 
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={1.4}>

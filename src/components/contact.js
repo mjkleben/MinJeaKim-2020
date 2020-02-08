@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import '../../public/assets/css/contact.scss'
 // import ProfilePic from '../../public/assets/img/profile.png'
+import LinkedInLogo from '../../public/assets/img/linkedin.svg'
+import InstagramLogo from '../../public/assets/img/instagram.svg'
 
 const Contact = () => {
     return (
@@ -11,8 +13,8 @@ const Contact = () => {
                 <p className="email">mjkleben@gmail.com</p>
 
                 <ul>
-                    <li className="block"></li>
-                    <li className="block"></li>
+                    <img src={LinkedInLogo} className="block"></img>
+                    <img src={InstagramLogo} className="block"></img>
                 </ul>
             </div>
             
