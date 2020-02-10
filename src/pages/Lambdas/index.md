@@ -1,7 +1,10 @@
 ---
 path: "/lambdas-case"
-title: "UVa Lambdas Case Study"
+title: "UVa Lambda Phi Epsilon"
+secondary-title: "UVa Lambda Phi Epsilon"
 author: "Min Jea Kim"
+platform: "Website"
+imagepath: "/assets/img/projects/lambdas.png"
 ---
 
 
