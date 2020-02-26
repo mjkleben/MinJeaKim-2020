@@ -17,45 +17,43 @@ const Skills = () => {
             <div className="skills">
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true}><h3>SKILLS</h3></ScrollAnimation>
 
-                <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={1.4}>
-                    <h3>Design</h3>
-                    <ul>
-                        <li>
-                            <img src={FigmaLogo} className="block"/>
-                            <p>Figma</p>
-                        </li>
-                        <li>
-                            <img src={AdobeLogo} className="block"/>
-                            <p>Adobe Photoshop, Illustrator, XD</p>
-                        </li>
-                    </ul>
-                </ScrollAnimation>
+                <div className="skills-row">
+                        <section className="development">
+                            <h4>Development</h4>
+                            <ul>
+                                <li>
+                                    <img src={JavascriptLogo} className="block"/>
+                                    <p>Javascript: React, Vue, Gatsby, Node.js</p>
+                                </li>
+                                <li>
+                                    <img src={PythonLogo} className="block"/>
+                                    <p>Python: Django, Flask, Tkinter, Kivy</p>
+                                </li>
+                                <li>
+                                    <img src={ContainerLogo} className="block"/>
+                                    <p>Container Systems: Docker, Kubernetes</p>
+                                </li>
+                                <li>
+                                    <img src={ToolsLogo} className="block"/>
+                                    <p>Etc: AWS, WordPress, HTML, CSS (SASS), Travis</p>
+                                </li>
+                            </ul>
+                        </section>
 
-
-                <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={1.4}>
-                    <h3>Development</h3>
-                    <ul>
-                        <li>
-                            <img src={JavascriptLogo} className="block"/>
-                            <p>Javascript: React, Vue, Gatsby, Node.js</p>
-                        </li>
-                        <li>
-                            <img src={PythonLogo} className="block"/>
-                            <p>Python: Django, Flask, Tkinter, Kivy</p>
-                        </li>
-                        <li>
-                            <img src={ContainerLogo} className="block"/>
-                            <p>Container Systems: Docker, Kubernetes</p>
-                        </li>
-                        <li>
-                            <img src={ToolsLogo} className="block"/>
-                            <p>Etc: AWS, WordPress, HTML, CSS (SASS), Travis</p>
-                        </li>
-                    </ul>
-                </ScrollAnimation>
-
-
-
+                        <section className="design">
+                            <h4>Design</h4>
+                            <ul>
+                                <li>
+                                    <img src={FigmaLogo} className="block"/>
+                                    <p>Figma</p>
+                                </li>
+                                <li>
+                                    <img src={AdobeLogo} className="block"/>
+                                    <p>Adobe Photoshop, Illustrator, XD</p>
+                                </li>
+                            </ul>
+                        </section>
+                </div>
             </div>
             
         </div>

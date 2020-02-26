@@ -16,24 +16,36 @@ const LandingSection = () => {
             </section>
 
             <div className="mobile-footer">
-            <RadialMenu
-                animation={"shrinkIn"}
-                distance ={30}
-                itemsSize ={55}
-                stagger={0}
-                items={[
-                    {"href":"", "image":"url('https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png')"},
-                    {"href":"", "image":"url('https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png')"},
-                    {"href":"", "image":"url('https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png')"},
-                    {"href":"", "image":"url('')"},
-                    {"href":"", "image":"url('')"},
-                    {"href":"", "image":"url('')"},
-                    {"href":"", "image":"url('https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png')"},
-                    {"href":"", "image":"url('https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png')"}]
-                }
-                center={{"image": "url('/assets/img/logo.png')"}}
-            />  
-        </div>
+                <RadialMenu
+                    animation={"shrinkIn"}
+                    distance ={30}
+                    itemsSize ={55}
+                    stagger={0}
+                    items={[
+                        {"href":"", "image":"url('https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png')"},
+                        {"href":"", "image":"url('https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png')"},
+                        {"href":"", "image":"url('https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png')"},
+                        {"href":"", "image":"url('')"},
+                        {"href":"", "image":"url('')"},
+                        {"href":"", "image":"url('')"},
+                        {"href":"", "image":"url('https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png')"},
+                        {"href":"", "image":"url('https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png')"}]
+                    }
+                    center={{"image": "url('/assets/img/logo.png')"}}
+                />  
+            </div>
+
+            <div className="desktop-footer">
+                    <ul>
+                        <li>About</li>
+                        <li>Skills</li>
+                        <li>Projects</li>
+                        <li>Daily Designs</li>
+
+                        
+                    </ul>
+                    
+            </div>
         </div>
 
 
