@@ -41,10 +41,7 @@ const LandingSection = () => {
                         <li>Skills</li>
                         <li>Projects</li>
                         <li>Daily Designs</li>
-
-                        
                     </ul>
-                    
             </div>
         </div>
 

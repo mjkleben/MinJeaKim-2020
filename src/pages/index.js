@@ -10,6 +10,7 @@ import About from "../components/about"
 import Skills from "../components/skills"
 import Projects from "../components/projects"
 import Contact from "../components/contact"
+import MiscWork from "../components/misc-work"
 
 
 
@@ -20,6 +21,7 @@ const IndexPage = () => (
     <About/>
     <Skills/>
     <Projects/>
+    <MiscWork/>
     <Contact/>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     </div>
