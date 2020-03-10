@@ -23,7 +23,7 @@ const Skills = () => {
                             <ul>
                                 <li>
                                     <img src={JavascriptLogo} className="block"/>
-                                    <p>Javascript: React, Vue, Gatsby, Node.js</p>
+                                    <p>Javascript: React, Vue, Gatsby, Node.js, Electron</p>
                                 </li>
                                 <li>
                                     <img src={PythonLogo} className="block"/>
@@ -35,7 +35,7 @@ const Skills = () => {
                                 </li>
                                 <li>
                                     <img src={ToolsLogo} className="block"/>
-                                    <p>Etc: AWS, WordPress, HTML, CSS (SASS), Travis</p>
+                                    <p>Etc: PHP, Java,  HTML/CSS (SASS), AWS, WordPress, Arduino, Git, MongoDB, MySQL</p>
                                 </li>
                             </ul>
                         </section>
