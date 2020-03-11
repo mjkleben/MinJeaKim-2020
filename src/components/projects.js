@@ -17,7 +17,7 @@ const Projects = () => {
                             <StaticQuery
                                 query={graphql`
                                 {
-                                    allMarkdownRemark {
+                                    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/projects/"  }}) {
                                     edges {
                                         node {
                                         frontmatter {
